@@ -1,1 +1,1 @@
-include <dibond_config.scad>
+include <torsti_config.scad>
