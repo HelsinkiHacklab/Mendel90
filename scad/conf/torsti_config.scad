@@ -7,7 +7,7 @@
 //
 // Configuration file
 //
-echo("Torsti:");
+echo("Torsti90:");
 
 Z_bearings = LM10UU;
 Y_bearings = LM10UU;
@@ -19,8 +19,8 @@ Z_motor = NEMA17;
 
 hot_end = JHeadMk5;
 
-X_travel = 214;
-Y_travel = 214;
+X_travel = 200;
+Y_travel = 200;
 Z_travel = 200;
 
 bed_depth = 214;
@@ -36,13 +36,13 @@ base_corners = 10;
 frame = MDF12;
 //frame = Plywood10;
 frame_corners = 10;
-frame_nuts = false;
+frame_nuts = true; // Use nuts for torsti frame.
 
 case_fan = fan80x38;
-psu = ALPINE500;
+psu = ATX500;
 //psu = KY240W;
 //controller = Melzi;
-controller = Sanguinololu;
+controller = RampsElectronics;
 spool = spool_194x78;
 bottom_limit_switch = false;
 top_limit_switch = true;
@@ -52,8 +52,8 @@ stays_from_window = false;
 
 Y_carriage = DiBond;
 
-X_belt = T5x6;
-Y_belt = T5x6;
+X_belt = GT2x6;
+Y_belt = GT2x6;
 
 motor_shaft = 5;
 Z_screw_dia = 8;            // Studding for Z axis
@@ -73,7 +73,8 @@ hex_screw = M4_hex_screw;
 //
 // Screw for the frame and base
 //
-frame_soft_screw = No6_screw;               // Used when sheet material is soft, e.g. wood
+//frame_soft_screw = No6_screw;               // Used when sheet material is soft, e.g. wood
+frame_soft_screw = M4_cap_screw; // Use machine screws for torsti90 despite building it from MDF.
 frame_thin_screw = M4_cap_screw;            // Used with nuts when sheets are thin
 frame_thick_screw = M4_pan_screw;           // Used with tapped holes when sheets are thick and hard, e.g. plastic or metal
 //
