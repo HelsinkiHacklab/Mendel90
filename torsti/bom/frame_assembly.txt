@@ -1,17 +1,19 @@
 frame_assembly:
 Vitamins:
-  2 MDF sheet 162mm x 385mm x 12mm
-  1 MDF sheet 489mm x 385mm x 12mm
-  1 MDF sheet 489mm x 436mm x 12mm
- 39 No6 pan wood screw x 16mm
- 39 Washer M4 x 9mm x 0.8mm
- 39 Star washer M4 x 0.8mm
+ 11 M4 cap screw x 16mm
+ 26 M4 cap screw x 25mm
+  2 MDF sheet 155mm x 385mm x 12mm
+  1 MDF sheet 475mm x 385mm x 12mm
+  1 MDF sheet 475mm x 422mm x 12mm
+ 26 Nyloc nut M4
+ 61 Washer M4 x 9mm x 0.8mm
+ 11 Star washer M4 x 0.8mm
+  4 Ziptie 100mm min length
 
 Printed:
   2 cable_clip_AB.stl
-  2 cable_clip_AD.stl
   1 cable_clip_CA.stl
  10 fixing_block.stl
-  1 ribbon_clamp_20_40.stl
-  1 ribbon_clamp_26_40.stl
+  1 ribbon_clamp_20_44N.stl
+  1 ribbon_clamp_26_44.stl
 
