@@ -30,16 +30,17 @@ bed_glass = glass2;
 bed_thickness = pcb_thickness + sheet_thickness(bed_glass);    // PCB heater plus glass sheet
 bed_holes = 209;
 
-base = MDF12;
+base = MDF12WithBolts;
 base_corners = 10;
+base_nuts = true; // Use machine screws for torsti base.
 
-frame = MDF12;
+frame = MDF12WithBolts;
 //frame = Plywood10;
 frame_corners = 10;
-frame_nuts = true; // Use nuts for torsti frame.
+frame_nuts = true; // Use machine screws for torsti frame.
 
 case_fan = fan80x38;
-psu = ATX500;
+psu = ALPINE500;
 //psu = KY240W;
 //controller = Melzi;
 controller = RampsElectronics;

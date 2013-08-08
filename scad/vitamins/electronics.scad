@@ -95,6 +95,14 @@ ATX500 =
         []
     ];
 
+// Single fan at back, wires exit opposite side from mains in
+NORMAL_ATX =
+    ["ATX500", 150, 140, 86, M4_cap_screw, M4_tap_radius, true,
+        [
+        ],
+        []
+    ];
+
 // Two fans, wires exit same side as mains so has to be mounted upside down
 ALPINE500 =
     ["ALPINE500", 150, 140, 86, false, false, false,
@@ -119,7 +127,7 @@ function psu_screw_hole_radius(type) = type[5];
 function psu_screw_from_back(type)   = type[6];
 function psu_hole_list(type)         = type[7];
 function psu_accessories(type)       = type[8];
-function atx_psu(type) = type == ATX500 || type == ALPINE500;
+function atx_psu(type) = type == ATX500 || type == ALPINE500 || type == NORMAL_ATX;
 
 module psu(type) {
     vitamin(str(psu_name(type),": PSU e.g. ", psu_name(type)));
