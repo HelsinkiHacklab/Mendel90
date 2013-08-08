@@ -155,10 +155,10 @@
   <text x="125mm" y="58mm" font-size="24">
    4.4
   </text>
-  <circle cx="149.899964mm" cy="305.999964mm" r="2.200229mm" fill="none"/>
-  <line x1="154.300421mm" y1="305.999964mm" x2="145.499507mm" y2="305.999964mm" />
-  <line x1="149.899964mm" y1="301.599507mm" x2="149.899964mm" y2="310.400421mm" />
-  <text x="152mm" y="303mm" font-size="24">
+  <circle cx="125.899964mm" cy="305.999964mm" r="2.200229mm" fill="none"/>
+  <line x1="130.300421mm" y1="305.999964mm" x2="121.499507mm" y2="305.999964mm" />
+  <line x1="125.899964mm" y1="301.599507mm" x2="125.899964mm" y2="310.400421mm" />
+  <text x="128mm" y="303mm" font-size="24">
    4.4
   </text>
   <circle cx="192.049590mm" cy="298.449819mm" r="1.400139mm" fill="none"/>
